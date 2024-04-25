@@ -56,7 +56,7 @@
     color: rgb(197, 1, 197);
 }
 
-.my-container{
+.my-container {
     padding: 0 5%;
 }
 
@@ -69,7 +69,7 @@
 .my-navbar {
     height: 50px;
     position: fixed;
-    width: 100%;
+    width: 100% !important;
     background: transparent;
     backdrop-filter: blur(5px);
     color: #fff;
@@ -320,7 +320,8 @@
 .skills-container-inner {
     padding: 1rem 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
 
     .skill {
@@ -409,7 +410,8 @@ footer {
 
         }
     }
-    .my-container{
+
+    .my-container {
         padding: 0 2rem;
     }
 }
@@ -474,14 +476,18 @@ footer {
             grid-column: 1/ span 3;
         }
     }
+
+    .skills-container-inner {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
-@media only screen and (max-width:540px){
-    .hero-outer{
+@media only screen and (max-width:540px) {
+    .hero-outer {
         height: fit-content;
         padding: 1rem 0;
     }
-    
+
     .hero {
         grid-template-columns: repeat(3, 1fr);
         height: 100%;
@@ -529,10 +535,31 @@ footer {
             grid-column: 3/ span 1;
         }
     }
-    .about-container{
-        a{
+
+    .about-container {
+        a {
             width: 50% !important;
         }
+    }
+
+    .skills-container-inner {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .my-navbar.my-navbar-expanded {
+        min-height: 200px !important;
+    }
+
+    .my-navbar {
+
+
+        .navbar-links-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
     }
 }
 
@@ -544,7 +571,7 @@ footer {
     .my-navbar {
         min-height: 0;
         padding: .5rem 0;
-        overflow: hidden;
+        overflow-y: hidden;
 
         .my-container {
             flex-direction: column;
@@ -589,5 +616,12 @@ footer {
             }
 
         }
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
     }
 }
