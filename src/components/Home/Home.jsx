@@ -12,6 +12,7 @@ const Home = () => {
     aTag.click();
     aTag.remove();
   };
+  
   return (
     <>
       <Element name="home" className="hero-outer">

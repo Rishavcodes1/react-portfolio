@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <footer className="text-white py-3 d-flex flex-column">
-        <div className="container d-flex flex-column align-items-center gap-3 pb-3">
+        <div className="my-container d-flex flex-column align-items-center gap-3 pb-3">
           <span>Other Social media links</span>
           <div className="social-links-container d-flex gap-3">
             <a href="https://www.facebook.com/rishavcodes1" target="_blank">
