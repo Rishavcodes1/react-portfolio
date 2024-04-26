@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Element } from "react-scroll";
 
+
 const Contact = () => {
   const [input_data, setinput_data] = useState([]);
   const input_names = ["name", "email", "subject"];

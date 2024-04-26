@@ -4,6 +4,7 @@
     height: 100%;
     object-fit: cover;
     animation: reshape 20s linear infinite;
+    background-color: #fff;
 }
 
 @keyframes reshape {
