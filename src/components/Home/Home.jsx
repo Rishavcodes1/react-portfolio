@@ -16,14 +16,14 @@ const Home = () => {
   return (
     <>
       <Element name="home" className="hero-outer">
-        <div className="hero">
+        <div className="hero text-white">
           <div className="profile-photo-container">
             <ProfilePhoto></ProfilePhoto>
           </div>
           <div className="name-container d-flex align-items-center">
             <span>Rishav Sakariya</span>
           </div>
-          <div className="status-container d-flex flex-column">
+          <div className="status-container d-flex flex-column justify-content-center gap-2">
             <span>open to</span>
             <span>work</span>
           </div>
@@ -66,7 +66,7 @@ const Home = () => {
             Download Resume
           </button>
 
-          <div className="summary-container d-flex flex-column">
+          <div className="summary-container d-flex flex-column gap-4">
             <span>Summary</span>
             <span>
               A

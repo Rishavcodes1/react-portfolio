@@ -5,7 +5,7 @@ const About = () => {
     <>
       <Element name="about" className="about-container d-flex flex-column">
         <h3 className="text-white text-center">About me</h3>
-        <div className="about-container-inner">
+        <div className="about-container-inner d-flex flex-column text-white">
           <div className="introduction-container d-flex flex-column gap-2">
             <span className="fs-4 fw-semibold">Introduction</span>
             <span>
