@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.a66c2fdc.css",
-    "main.js": "/react-portfolio/static/js/main.a62bf53e.js",
+    "main.js": "/react-portfolio/static/js/main.780843dc.js",
     "static/js/453.4487d271.chunk.js": "/react-portfolio/static/js/453.4487d271.chunk.js",
     "static/media/redux.png": "/react-portfolio/static/media/redux.1b4bb5fceb01b19da59d.png",
     "static/media/me.png": "/react-portfolio/static/media/me.bdd7bc923ca81ca6238d.png",
-    "static/media/rishav_sakariya_resume.pdf": "/react-portfolio/static/media/rishav_sakariya_resume.263a74caf1705cc15998.pdf",
+    "static/media/rishav_sakariya_resume.pdf": "/react-portfolio/static/media/rishav_sakariya_resume.43b4e9c0f5145810cd33.pdf",
     "static/media/bootstrap.png": "/react-portfolio/static/media/bootstrap.159fe6137ce1a4eb3769.png",
     "static/media/python.png": "/react-portfolio/static/media/python.fa4815ec7bb0715aaf4d.png",
     "static/media/working.png": "/react-portfolio/static/media/working.6120873afcca698768cf.png",
@@ -13,11 +13,11 @@
     "static/media/js.png": "/react-portfolio/static/media/js.266bd9fb2663dcc057b4.png",
     "index.html": "/react-portfolio/index.html",
     "main.a66c2fdc.css.map": "/react-portfolio/static/css/main.a66c2fdc.css.map",
-    "main.a62bf53e.js.map": "/react-portfolio/static/js/main.a62bf53e.js.map",
+    "main.780843dc.js.map": "/react-portfolio/static/js/main.780843dc.js.map",
     "453.4487d271.chunk.js.map": "/react-portfolio/static/js/453.4487d271.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a66c2fdc.css",
-    "static/js/main.a62bf53e.js"
+    "static/js/main.780843dc.js"
   ]
 }
