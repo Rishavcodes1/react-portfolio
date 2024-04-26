@@ -259,11 +259,6 @@ button {
         bottom: 0;
         right: 0;
         width: 3px;
-        transform: scaleY(0);
-        transform-origin: top;
-        animation: grow 5s forwards;
-        animation-timeline: view();
-        animation-range: entry;
         background: linear-gradient(to bottom, #fff, #7E7E7E, #7e7e7e00);
     }
 
@@ -272,10 +267,6 @@ button {
         border-radius: .5rem;
         margin-left: 2rem;
         position: relative;
-        transform: translateX(-110%);
-        animation: towards-right 10s forwards;
-        animation-timeline: view();
-        animation-range: entry 100px;
     }
 
     >div::before {
@@ -322,10 +313,6 @@ button {
         gap: 1rem;
         border-radius: .5rem;
         min-height: 300px;
-        scale: 0;
-        animation: pop 3s forwards;
-        animation-timeline: view();
-        animation-range: entry;
 
         img {
             width: 25%;
@@ -391,42 +378,6 @@ footer {
     }
 }
 
-.hero,
-.about-container,
-.skills-container,
-.contact-container {
-    opacity: 0;
-    animation: fade-in forwards;
-    animation-timeline: view();
-    animation-range: entry 100px;
-}
-
-
-@keyframes fade-in {
-
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes towards-right {
-    to {
-        transform: translateX(0%);
-    }
-}
-
-@keyframes pop {
-    to {
-        scale: 1;
-    }
-}
-
-
-@keyframes grow {
-    to {
-        transform: scaleY(1);
-    }
-}
 
 #modal {
     border: none;
@@ -455,29 +406,6 @@ footer{
 #modal::backdrop {
     backdrop-filter: blur(5px);
 }
-
-@keyframes slide-up {
-    from {
-        transform: translateY(20%);
-    }
-
-    to {
-        transform: translateY(0);
-    }
-}
-
-.contact-container .container-fluid {
-
-    >div {
-        transform: translateX(-100%);
-        animation: towards-right 5s forwards;
-        animation-timeline: view();
-        animation-range: entry 100px;
-    }
-
-
-}
-
 
 @media only screen and (max-width:1000px) {
     .contact-container {
