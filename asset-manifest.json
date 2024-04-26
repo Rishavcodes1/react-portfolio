@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.2289b852.css",
-    "main.js": "/react-portfolio/static/js/main.d0cad9a0.js",
+    "main.css": "/react-portfolio/static/css/main.e5d4046e.css",
+    "main.js": "/react-portfolio/static/js/main.a62bf53e.js",
     "static/js/453.4487d271.chunk.js": "/react-portfolio/static/js/453.4487d271.chunk.js",
     "static/media/redux.png": "/react-portfolio/static/media/redux.1b4bb5fceb01b19da59d.png",
+    "static/media/me.png": "/react-portfolio/static/media/me.bdd7bc923ca81ca6238d.png",
     "static/media/rishav_sakariya_resume.pdf": "/react-portfolio/static/media/rishav_sakariya_resume.263a74caf1705cc15998.pdf",
     "static/media/bootstrap.png": "/react-portfolio/static/media/bootstrap.159fe6137ce1a4eb3769.png",
     "static/media/python.png": "/react-portfolio/static/media/python.fa4815ec7bb0715aaf4d.png",
@@ -11,12 +12,12 @@
     "static/media/css.png": "/react-portfolio/static/media/css.8ea58d31a9d39dd59031.png",
     "static/media/js.png": "/react-portfolio/static/media/js.266bd9fb2663dcc057b4.png",
     "index.html": "/react-portfolio/index.html",
-    "main.2289b852.css.map": "/react-portfolio/static/css/main.2289b852.css.map",
-    "main.d0cad9a0.js.map": "/react-portfolio/static/js/main.d0cad9a0.js.map",
+    "main.e5d4046e.css.map": "/react-portfolio/static/css/main.e5d4046e.css.map",
+    "main.a62bf53e.js.map": "/react-portfolio/static/js/main.a62bf53e.js.map",
     "453.4487d271.chunk.js.map": "/react-portfolio/static/js/453.4487d271.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2289b852.css",
-    "static/js/main.d0cad9a0.js"
+    "static/css/main.e5d4046e.css",
+    "static/js/main.a62bf53e.js"
   ]
 }
